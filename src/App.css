@@ -1,0 +1,86 @@
+.main-container .cube-container {
+    display: flex; 
+    gap: 10px; 
+  }
+  
+  .cube {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+  }
+
+  div {
+    margin-bottom: 30px; 
+  }
+
+  .square {
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: white; 
+    border-radius: 4px; 
+  }
+
+  .squares-container {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .square {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .square.red {
+    background-color: red;
+  }
+  
+  .square.blue {
+    background-color: blue;
+  }
+  
+  .square.green {
+    background-color: green;
+  }
+  
+
+  .square2 {
+    width: 100px;
+    height: 100px;
+    background-color: green; /* stoka krāsa */
+     margin: 10px;
+  }
+
+  
+  .square3 {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    width: 100px;
+    height: 100px;
+    background-color: green; 
+    margin: 10px;
+    
+  }
+  
+ 
+  
+
+  .cloned-square {
+    width: 100px;
+    height: 100px;
+    background-color: green; 
+    margin: 10px;
+  }
+
+  .corner {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
